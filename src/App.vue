@@ -1,5 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+  import PrefSelect from './components/PrefSelect.vue'
+  import Header from './components/Header.vue'
+</script>
 
-<template></template>
+<template>
+  <Header />
+  <main><PrefSelect /></main>
+</template>
 
-<style></style>
+<style lang="scss"></style>
