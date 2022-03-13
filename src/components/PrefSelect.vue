@@ -1,13 +1,15 @@
 <script setup lang="ts">
   import { ref } from 'vue'
   import { getPrefectureData } from '../module/resasApi'
-  const prefectures = ref<Array<PrefResult>>()
-  const checkedPrefs = ref([])
 
+  // 都道府県名データのインターフェース
   interface PrefResult {
     prefCode: string
     prefName: string
   }
+
+  const prefectures = ref<Array<PrefResult>>()
+  const checkedPrefs = ref([]) // 選択された都道府県のprefCodeを格納
   const getData = async () => {
     const res = await getPrefectureData<Array<PrefResult>>()
     if (typeof res === 'string') {
