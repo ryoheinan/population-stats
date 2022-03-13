@@ -1,0 +1,56 @@
+// Vitest Snapshot v1
+
+exports[`PrefSelect component > Snapshot 1`] = `
+"<section>
+  <h2>都道府県</h2>
+  <!--v-if-->
+  <div>Checked prefs: []</div>
+  <div><input type=\\"checkbox\\" id=\\"1\\" value=\\"1\\" /><label for=\\"1\\" data-testid=\\"prefecture\\">北海道</label></div>
+  <div><input type=\\"checkbox\\" id=\\"2\\" value=\\"2\\" /><label for=\\"2\\" data-testid=\\"prefecture\\">青森県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"3\\" value=\\"3\\" /><label for=\\"3\\" data-testid=\\"prefecture\\">岩手県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"4\\" value=\\"4\\" /><label for=\\"4\\" data-testid=\\"prefecture\\">宮城県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"5\\" value=\\"5\\" /><label for=\\"5\\" data-testid=\\"prefecture\\">秋田県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"6\\" value=\\"6\\" /><label for=\\"6\\" data-testid=\\"prefecture\\">山形県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"7\\" value=\\"7\\" /><label for=\\"7\\" data-testid=\\"prefecture\\">福島県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"8\\" value=\\"8\\" /><label for=\\"8\\" data-testid=\\"prefecture\\">茨城県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"9\\" value=\\"9\\" /><label for=\\"9\\" data-testid=\\"prefecture\\">栃木県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"10\\" value=\\"10\\" /><label for=\\"10\\" data-testid=\\"prefecture\\">群馬県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"11\\" value=\\"11\\" /><label for=\\"11\\" data-testid=\\"prefecture\\">埼玉県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"12\\" value=\\"12\\" /><label for=\\"12\\" data-testid=\\"prefecture\\">千葉県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"13\\" value=\\"13\\" /><label for=\\"13\\" data-testid=\\"prefecture\\">東京都</label></div>
+  <div><input type=\\"checkbox\\" id=\\"14\\" value=\\"14\\" /><label for=\\"14\\" data-testid=\\"prefecture\\">神奈川県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"15\\" value=\\"15\\" /><label for=\\"15\\" data-testid=\\"prefecture\\">新潟県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"16\\" value=\\"16\\" /><label for=\\"16\\" data-testid=\\"prefecture\\">富山県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"17\\" value=\\"17\\" /><label for=\\"17\\" data-testid=\\"prefecture\\">石川県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"18\\" value=\\"18\\" /><label for=\\"18\\" data-testid=\\"prefecture\\">福井県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"19\\" value=\\"19\\" /><label for=\\"19\\" data-testid=\\"prefecture\\">山梨県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"20\\" value=\\"20\\" /><label for=\\"20\\" data-testid=\\"prefecture\\">長野県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"21\\" value=\\"21\\" /><label for=\\"21\\" data-testid=\\"prefecture\\">岐阜県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"22\\" value=\\"22\\" /><label for=\\"22\\" data-testid=\\"prefecture\\">静岡県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"23\\" value=\\"23\\" /><label for=\\"23\\" data-testid=\\"prefecture\\">愛知県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"24\\" value=\\"24\\" /><label for=\\"24\\" data-testid=\\"prefecture\\">三重県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"25\\" value=\\"25\\" /><label for=\\"25\\" data-testid=\\"prefecture\\">滋賀県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"26\\" value=\\"26\\" /><label for=\\"26\\" data-testid=\\"prefecture\\">京都府</label></div>
+  <div><input type=\\"checkbox\\" id=\\"27\\" value=\\"27\\" /><label for=\\"27\\" data-testid=\\"prefecture\\">大阪府</label></div>
+  <div><input type=\\"checkbox\\" id=\\"28\\" value=\\"28\\" /><label for=\\"28\\" data-testid=\\"prefecture\\">兵庫県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"29\\" value=\\"29\\" /><label for=\\"29\\" data-testid=\\"prefecture\\">奈良県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"30\\" value=\\"30\\" /><label for=\\"30\\" data-testid=\\"prefecture\\">和歌山県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"31\\" value=\\"31\\" /><label for=\\"31\\" data-testid=\\"prefecture\\">鳥取県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"32\\" value=\\"32\\" /><label for=\\"32\\" data-testid=\\"prefecture\\">島根県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"33\\" value=\\"33\\" /><label for=\\"33\\" data-testid=\\"prefecture\\">岡山県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"34\\" value=\\"34\\" /><label for=\\"34\\" data-testid=\\"prefecture\\">広島県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"35\\" value=\\"35\\" /><label for=\\"35\\" data-testid=\\"prefecture\\">山口県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"36\\" value=\\"36\\" /><label for=\\"36\\" data-testid=\\"prefecture\\">徳島県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"37\\" value=\\"37\\" /><label for=\\"37\\" data-testid=\\"prefecture\\">香川県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"38\\" value=\\"38\\" /><label for=\\"38\\" data-testid=\\"prefecture\\">愛媛県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"39\\" value=\\"39\\" /><label for=\\"39\\" data-testid=\\"prefecture\\">高知県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"40\\" value=\\"40\\" /><label for=\\"40\\" data-testid=\\"prefecture\\">福岡県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"41\\" value=\\"41\\" /><label for=\\"41\\" data-testid=\\"prefecture\\">佐賀県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"42\\" value=\\"42\\" /><label for=\\"42\\" data-testid=\\"prefecture\\">長崎県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"43\\" value=\\"43\\" /><label for=\\"43\\" data-testid=\\"prefecture\\">熊本県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"44\\" value=\\"44\\" /><label for=\\"44\\" data-testid=\\"prefecture\\">大分県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"45\\" value=\\"45\\" /><label for=\\"45\\" data-testid=\\"prefecture\\">宮崎県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"46\\" value=\\"46\\" /><label for=\\"46\\" data-testid=\\"prefecture\\">鹿児島県</label></div>
+  <div><input type=\\"checkbox\\" id=\\"47\\" value=\\"47\\" /><label for=\\"47\\" data-testid=\\"prefecture\\">沖縄県</label></div>
+</section>"
+`;
