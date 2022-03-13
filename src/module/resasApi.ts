@@ -11,12 +11,33 @@ const instance = axios.create({
   },
 })
 
+// 都道府県名データを取得する
 export const getPrefectureData = async <T>(): Promise<
   ApiResult<T> | string
 > => {
   let response
   try {
     response = await instance.get('/prefectures')
+  } catch (error) {
+    return 'Failed to get prefecture data.'
+  }
+
+  if (response.status === 200 && response.data.message === null) {
+    return response.data as ApiResult<T>
+  } else {
+    return response.data.message
+  }
+}
+
+// 人口データを取得する
+export const getPopulationData = async <T>(
+  prefCode: number
+): Promise<ApiResult<T> | string> => {
+  let response
+  try {
+    response = await instance.get('/population/composition/perYear', {
+      params: { prefCode: prefCode, cityCode: '-' },
+    })
   } catch (error) {
     return 'Failed to get population data.'
   }
