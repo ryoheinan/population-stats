@@ -39,10 +39,6 @@
       2020, 2025, 2030, 2035, 2040, 2045,
     ],
     datasets: props.dataset,
-    parsing: {
-      xAxisKey: 'year',
-      yAxisKey: 'value',
-    },
   }))
 </script>
 
